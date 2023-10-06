@@ -1,5 +1,5 @@
-# Auto apply new with current IP for Windows
-Auto change timezone with current IP, Proxy, or VPN
+# Windows Timezone Patch
+Simple script to update the timezone based on the current IP.
 
 Run command below in Powershell ( Not CMD)
 
