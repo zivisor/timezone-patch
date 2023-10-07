@@ -391,7 +391,7 @@ SE Asia Standard Time,ID,Asia/Jakarta Asia/Pontianak
 SE Asia Standard Time,KH,Asia/Phnom_Penh
 SE Asia Standard Time,LA,Asia/Vientiane
 SE Asia Standard Time,TH,Asia/Bangkok
-SE Asia Standard Time,VN,Asia/Saigon
+SE Asia Standard Time,VN,Asia/Saigon Asia/Ho_Chi_Minh
 SE Asia Standard Time,ZZ,Etc/GMT-7
 Altai Standard Time,001,Asia/Barnaul
 Altai Standard Time,RU,Asia/Barnaul
