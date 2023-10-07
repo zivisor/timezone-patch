@@ -1,6 +1,6 @@
 $currentTimezone = (tzutil /g)
 Write-Host "Current timezone: " -NoNewline; Write-Host "$currentTimezone" -ForegroundColor Green
-$timezones = (Invoke-RestMethod -Uri "https://raw.githubusercontent.com/zivisor/timezone-patch/main/timezone-maps.csv").split("`n")
+$timezones = (Invoke-RestMethod -Uri "https://raw.githubusercontent.com/zivisor/timezone-patch/main/timezone-maps.csv?20231007").split("`n")
 Write-Host "Get list timezones: " -NoNewline; Write-Host "Successfully" -ForegroundColor Green
 $timezone = (Invoke-RestMethod -Uri "https://worldtimeapi.org/api/ip/").timezone
 Write-Host "Get current timezone: " -NoNewline; Write-Host "$timezone" -ForegroundColor Green
